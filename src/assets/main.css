@@ -4,7 +4,50 @@
 @import './base.css';
 
 
-@font-face {
-  font-family: "Roboto";
-  src: url();
+@layer base {
+  @font-face {
+    font-family: "KumbhsLight";
+    src: url("../assets/fonts/Kumbh_Sans/KumbhSans-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "KumbhsBold";
+    src: url("../assets/fonts/Kumbh_Sans/KumbhSans-Bold.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "RobotoRegular";
+    src: url("../assets/fonts/Roboto_Slab/RobotoSlab-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "RobotoBold";
+    src: url("../assets/fonts/Roboto_Slab/RobotoSlab-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "SpaceRegular";
+    src: url("../assets/fonts/Space_Mono/SpaceMono-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "SpaceBold";
+    src: url("../assets/fonts/Space_Mono/SpaceMono-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+  }
+}
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;;
 }

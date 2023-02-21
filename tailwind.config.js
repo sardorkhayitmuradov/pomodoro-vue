@@ -1,10 +1,4 @@
 /** @type {import('tailwindcss').Config} */
-const {fontFamily} = require('tailwindcss/defaultTheme')
-const defaultTheme = require('tailwindcss/defaultTheme')
-const TailwindcssForms = require('@tailwindcss/forms')
-
-const {mono: defaultFontFamily} = defaultTheme.fontFamily
-
 module.exports = {
   content: [
     "./index.html",
@@ -26,9 +20,12 @@ module.exports = {
       "dark-blue": "#161932"
     },
     fontFamily: {
-      kumbhs: ["Kumbh Sans"],
-      roboto: ["Roboto Slab"],
-      space: ["Space Mono"],
+      Kumbhslight: ["KumbhsLight"],
+      KumbhsBold: ["KumbhsBold"],
+      RobotoRegular: ["RobotoRegular"],
+      RobotoBold: ["RobotoBold"],
+      SpaceRegular: ["SpaceRegular"],
+      SpaceBold: ["SpaceBold"],
     },
     fontSize: {
         'body-1': ['13px', {lineHeight: '16px', letterSpacing: "5px"}],
@@ -51,5 +48,5 @@ module.exports = {
     },
     extend: {},
   },
-  plugins: [TailwindcssForms],
+  plugins: [],
 }
