@@ -20,7 +20,7 @@ module.exports = {
       "dark-blue": "#161932"
     },
     fontFamily: {
-      Kumbhslight: ["KumbhsLight"],
+      Kumbhslight: ["KumbhsLight"], 
       KumbhsBold: ["KumbhsBold"],
       RobotoRegular: ["RobotoRegular"],
       RobotoBold: ["RobotoBold"],

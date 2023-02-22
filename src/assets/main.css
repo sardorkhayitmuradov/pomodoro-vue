@@ -1,7 +1,7 @@
+@import './base.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import './base.css';
 
 
 @layer base {
@@ -48,6 +48,19 @@
   }
 }
 
+#app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
 body {
-  font-family: 'Kumbh Sans', sans-serif;;
+  font-family: 'Kumbh Sans', sans-serif;
+  background: #1E213F;
+}
+
+.circle {
+  background: linear-gradient(315deg, #2E325A 0%, #0E112A 100%);
+box-shadow: -50px -50px 100px #272C5A, 50px 50px 100px #121530;
 }
